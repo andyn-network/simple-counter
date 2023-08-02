@@ -1,0 +1,70 @@
+*,*::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    text-align: center;
+    width: 100%;
+    background-color: lightblue;
+}
+
+.counter-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: lightcyan;
+    margin: 2rem auto;
+    width: 500px;
+    height: 350px;
+    padding: 1rem;
+    border: 3px solid black;
+    /* box-shadow: 3px 3px 3px 5px black; */
+}
+
+.btn-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    width: 200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+button {
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.negative {
+    background-color: lightcoral;
+}
+
+.positive {
+    background-color: lightgreen;
+}
+
+h2 {
+    text-align: center;
+    background-color: white;
+    font-size: 2rem;
+    margin: 1rem auto;
+    width: 400px;
+    border: 2px solid black;
+}
+
+#saveEl {
+    display: flex;
+    font-family: system-ui, sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50px;
+}
