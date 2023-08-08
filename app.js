@@ -72,5 +72,5 @@ function save() {
     let countStr = count + " "; //stores the current count to a new count string
     saveEl.textContent += countStr; // Adds the current count to the existing store count string
     count = 0; // Resets the current count to 0
-    updateCounter();
+    updateCounter(); //updates countEL on the webpage
 }
